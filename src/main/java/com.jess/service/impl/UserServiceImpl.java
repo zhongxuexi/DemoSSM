@@ -1,14 +1,12 @@
 package com.jess.service.impl;
 
-import com.jess.common.EmailUtil;
+import com.jess.common.util.EmailUtil;
 import com.jess.dao.UserDao;
 import com.jess.pojo.User;
 import com.jess.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import javax.mail.MessagingException;
-import java.io.UnsupportedEncodingException;
 import java.util.List;
 import java.util.Map;
 

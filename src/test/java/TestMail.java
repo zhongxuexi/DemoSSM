@@ -1,4 +1,4 @@
-import com.jess.common.EmailUtil;
+import com.jess.common.util.EmailUtil;
 import org.apache.log4j.Logger;
 
 import javax.mail.MessagingException;
